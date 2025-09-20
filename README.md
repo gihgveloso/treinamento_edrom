@@ -17,14 +17,14 @@ O sistema consiste em dois nós principais:
 
 Siga os passos abaixo para compilar o projeto.
 
-1.  **Clone este repositório** em um workspace do ROS 2:
+1.  Clone este repositório em um workspace do ROS 2:
     ```bash
     mkdir -p ~/ros2_ws/src
     cd ~/ros2_ws/src
     git clone [https://github.com/gihgveloso/ros2_chatter.git](https://github.com/gihgveloso/ros2_chatter.git)
     ```
     
-2.  **Volte para a raiz do workspace** e compile o pacote:
+2.  Volte para a raiz do workspace e compile o pacote:
     ```bash
     cd ~/ros2_ws
     colcon build --packages-select chatter
@@ -36,19 +36,19 @@ Siga os passos abaixo para compilar o projeto.
 
 Para executar os nós, você precisará de dois terminais.
 
-1.  **Em cada terminal**, navegue até a raiz do seu workspace e execute o comando `source` para carregar o ambiente:
+1.  Em cada terminal, navegue até a raiz do seu workspace e execute o comando `source` para carregar o ambiente:
     ```bash
     cd ~/ros2_ws
     source install/setup.bash
     ```
-2.  **No primeiro terminal**, inicie o nó `talker`:
+2.  No primeiro terminal, inicie o nó `talker`:
     ```bash
     ros2 run chatter talker
     ```
     *Você verá mensagens de "Publicando..." aparecerem.*
     <img width="843" height="525" alt="Screenshot from 2025-09-20 17-32-18" src="https://github.com/user-attachments/assets/d17c17d3-b87b-4e30-a06d-886a1aa11ae3" />
 
-4.  **No segundo terminal**, inicie o nó `listener`:
+4.  No segundo terminal, inicie o nó `listener`:
     ```bash
     ros2 run chatter listener
     ```
@@ -59,4 +59,4 @@ Para executar os nós, você precisará de dois terminais.
 
 ## 📜 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detal
