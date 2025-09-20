@@ -56,7 +56,3 @@ Para executar os nós, você precisará de dois terminais.
     <img width="850" height="655" alt="Screenshot from 2025-09-20 17-32-56" src="https://github.com/user-attachments/assets/5fd38403-23e5-4985-8760-ade355469454" />
 
 ---
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detal
