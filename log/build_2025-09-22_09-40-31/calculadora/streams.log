@@ -1,0 +1,41 @@
+[5.335s] Invoking command in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gihgveloso/treinamento_edrom/build/calculadora/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculadora build --build-base /home/gihgveloso/treinamento_edrom/build/calculadora/build install --record /home/gihgveloso/treinamento_edrom/build/calculadora/install.log --single-version-externally-managed install_data
+[5.937s] running egg_info
+[5.938s] creating ../../build/calculadora/calculadora.egg-info
+[5.977s] writing ../../build/calculadora/calculadora.egg-info/PKG-INFO
+[5.978s] writing dependency_links to ../../build/calculadora/calculadora.egg-info/dependency_links.txt
+[5.978s] writing entry points to ../../build/calculadora/calculadora.egg-info/entry_points.txt
+[5.979s] writing requirements to ../../build/calculadora/calculadora.egg-info/requires.txt
+[5.979s] writing top-level names to ../../build/calculadora/calculadora.egg-info/top_level.txt
+[5.979s] writing manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+[6.059s] reading manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+[6.060s] writing manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+[6.060s] running build
+[6.061s] running build_py
+[6.061s] creating /home/gihgveloso/treinamento_edrom/build/calculadora/build
+[6.061s] creating /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib
+[6.062s] creating /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+[6.062s] copying calculadora/service_calculadora.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+[6.062s] copying calculadora/__init__.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+[6.062s] copying calculadora/client_calculadora.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+[6.063s] running install
+[6.078s] running install_lib
+[6.115s] creating /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+[6.115s] copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/service_calculadora.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+[6.116s] copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/__init__.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+[6.116s] copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/client_calculadora.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+[6.117s] byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/service_calculadora.py to service_calculadora.cpython-312.pyc
+[6.118s] byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/__init__.py to __init__.cpython-312.pyc
+[6.118s] byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/client_calculadora.py to client_calculadora.cpython-312.pyc
+[6.119s] running install_data
+[6.119s] creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index
+[6.120s] creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index
+[6.120s] creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index/packages
+[6.120s] copying resource/calculadora -> /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index/packages
+[6.121s] copying package.xml -> /home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora
+[6.121s] running install_egg_info
+[6.169s] Copying ../../build/calculadora/calculadora.egg-info to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora-0.0.0-py3.12.egg-info
+[6.170s] running install_scripts
+[6.543s] Installing client_calculadora script to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/calculadora
+[6.543s] Installing service_calculadora script to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/calculadora
+[6.544s] writing list of installed files to '/home/gihgveloso/treinamento_edrom/build/calculadora/install.log'
+[6.620s] Invoked command in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gihgveloso/treinamento_edrom/build/calculadora/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculadora build --build-base /home/gihgveloso/treinamento_edrom/build/calculadora/build install --record /home/gihgveloso/treinamento_edrom/build/calculadora/install.log --single-version-externally-managed install_data

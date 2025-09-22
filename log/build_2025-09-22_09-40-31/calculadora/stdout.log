@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/calculadora/calculadora.egg-info
+writing ../../build/calculadora/calculadora.egg-info/PKG-INFO
+writing dependency_links to ../../build/calculadora/calculadora.egg-info/dependency_links.txt
+writing entry points to ../../build/calculadora/calculadora.egg-info/entry_points.txt
+writing requirements to ../../build/calculadora/calculadora.egg-info/requires.txt
+writing top-level names to ../../build/calculadora/calculadora.egg-info/top_level.txt
+writing manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+reading manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+writing manifest file '../../build/calculadora/calculadora.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gihgveloso/treinamento_edrom/build/calculadora/build
+creating /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib
+creating /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+copying calculadora/service_calculadora.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+copying calculadora/__init__.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+copying calculadora/client_calculadora.py -> /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora
+running install
+running install_lib
+creating /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/service_calculadora.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/__init__.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+copying /home/gihgveloso/treinamento_edrom/build/calculadora/build/lib/calculadora/client_calculadora.py -> /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora
+byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/service_calculadora.py to service_calculadora.cpython-312.pyc
+byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora/client_calculadora.py to client_calculadora.cpython-312.pyc
+running install_data
+creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index
+creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index
+creating /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index/packages
+copying resource/calculadora -> /home/gihgveloso/treinamento_edrom/install/calculadora/share/ament_index/resource_index/packages
+copying package.xml -> /home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora
+running install_egg_info
+Copying ../../build/calculadora/calculadora.egg-info to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages/calculadora-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client_calculadora script to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/calculadora
+Installing service_calculadora script to /home/gihgveloso/treinamento_edrom/install/calculadora/lib/calculadora
+writing list of installed files to '/home/gihgveloso/treinamento_edrom/build/calculadora/install.log'

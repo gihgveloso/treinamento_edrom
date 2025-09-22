@@ -1,0 +1,151 @@
+[3.336s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'calculadora']
+[3.336s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['calculadora'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dbcef490140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbcef53a6c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbcef53a6c0>>, mixin_verb=('build',))
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.750s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gihgveloso/treinamento_edrom'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['ignore', 'ignore_ament_install']
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'ignore'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'ignore_ament_install'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['colcon_pkg']
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'colcon_pkg'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['colcon_meta']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'colcon_meta'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['ros']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'ros'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['cmake', 'python']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'cmake'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'python'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extensions ['python_setup_py']
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(projetos) by extension 'python_setup_py'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extensions ['ignore', 'ignore_ament_install']
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extension 'ignore'
+[4.110s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extension 'ignore_ament_install'
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extensions ['colcon_pkg']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extension 'colcon_pkg'
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extensions ['colcon_meta']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extension 'colcon_meta'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extensions ['ros']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_calculator) by extension 'ros'
+[4.120s] DEBUG:colcon.colcon_core.package_identification:Package 'projetos/ros2_calculator' with type 'ros.ament_python' and name 'calculadora'
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['ignore', 'ignore_ament_install']
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'ignore'
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'ignore_ament_install'
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['colcon_pkg']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'colcon_pkg'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['colcon_meta']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'colcon_meta'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['ros']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'ros'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['cmake', 'python']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'cmake'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'python'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extensions ['python_setup_py']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter) by extension 'python_setup_py'
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extensions ['ignore', 'ignore_ament_install']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extension 'ignore'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extension 'ignore_ament_install'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extensions ['colcon_pkg']
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extension 'colcon_pkg'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extensions ['colcon_meta']
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extension 'colcon_meta'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extensions ['ros']
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(projetos/ros2_chatter/src) by extension 'ros'
+[4.163s] DEBUG:colcon.colcon_core.package_identification:Package 'projetos/ros2_chatter/src' with type 'ros.ament_python' and name 'chatter'
+[4.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.364s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'chatter' in 'projetos/ros2_chatter/src'
+[4.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/jazzy
+[4.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_args' from command line to 'None'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_target' from command line to 'None'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_clean_cache' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_clean_first' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'cmake_force_configure' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'ament_cmake_args' from command line to 'None'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'catkin_cmake_args' from command line to 'None'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'calculadora' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.499s] DEBUG:colcon.colcon_core.verb:Building package 'calculadora' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gihgveloso/treinamento_edrom/build/calculadora', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gihgveloso/treinamento_edrom/install/calculadora', 'merge_install': False, 'path': '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator', 'symlink_install': False, 'test_result_base': None}
+[4.499s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.500s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator' with build type 'ament_python'
+[4.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('calculadora', 'ament_prefix_path')
+[4.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/ament_prefix_path.ps1'
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/ament_prefix_path.dsv'
+[4.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/ament_prefix_path.sh'
+[4.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.995s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator'
+[4.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gihgveloso/treinamento_edrom/build/calculadora/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculadora build --build-base /home/gihgveloso/treinamento_edrom/build/calculadora/build install --record /home/gihgveloso/treinamento_edrom/build/calculadora/install.log --single-version-externally-managed install_data
+[11.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gihgveloso/treinamento_edrom/projetos/ros2_calculator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gihgveloso/treinamento_edrom/build/calculadora/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculadora build --build-base /home/gihgveloso/treinamento_edrom/build/calculadora/build install --record /home/gihgveloso/treinamento_edrom/build/calculadora/install.log --single-version-externally-managed install_data
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora' for CMake module files
+[11.175s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora' for CMake config files
+[11.176s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora/lib'
+[11.176s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora/bin'
+[11.176s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora/lib/pkgconfig/calculadora.pc'
+[11.177s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora/lib/python3.12/site-packages'
+[11.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('calculadora', 'pythonpath')
+[11.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/pythonpath.ps1'
+[11.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/pythonpath.dsv'
+[11.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/hook/pythonpath.sh'
+[11.179s] Level 1:colcon.colcon_core.environment:checking '/home/gihgveloso/treinamento_edrom/install/calculadora/bin'
+[11.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calculadora)
+[11.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/package.ps1'
+[11.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/package.dsv'
+[11.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/package.sh'
+[11.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/package.bash'
+[11.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/gihgveloso/treinamento_edrom/install/calculadora/share/calculadora/package.zsh'
+[11.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gihgveloso/treinamento_edrom/install/calculadora/share/colcon-core/packages/calculadora)
+[11.202s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.203s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.203s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.203s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.297s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.404s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gihgveloso/treinamento_edrom/install/local_setup.ps1'
+[11.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gihgveloso/treinamento_edrom/install/_local_setup_util_ps1.py'
+[11.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gihgveloso/treinamento_edrom/install/setup.ps1'
+[11.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gihgveloso/treinamento_edrom/install/local_setup.sh'
+[11.422s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gihgveloso/treinamento_edrom/install/_local_setup_util_sh.py'
+[11.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gihgveloso/treinamento_edrom/install/setup.sh'
+[11.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gihgveloso/treinamento_edrom/install/local_setup.bash'
+[11.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gihgveloso/treinamento_edrom/install/setup.bash'
+[11.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gihgveloso/treinamento_edrom/install/local_setup.zsh'
+[11.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gihgveloso/treinamento_edrom/install/setup.zsh'
