@@ -1,8 +1,8 @@
 # Projeto 2: Calculadora com Service/Client em ROS 2
 
-[cite_start]Este projeto foi desenvolvido como parte do programa de treinamento de trainees da equipe de robótica EDROM[cite: 2]. [cite_start]O objetivo é demonstrar a implementação de um sistema de comunicação síncrona (requisição-resposta) utilizando Serviços (Services) em ROS 2[cite: 35].
+Este projeto foi desenvolvido como parte do programa de treinamento de trainees da equipe de robótica EDROM. O objetivo é demonstrar a implementação de um sistema de comunicação síncrona (requisição-resposta) utilizando Serviços (Services) em ROS 2.
 
-[cite_start]O sistema consiste em um nó **Servidor** que aguarda por um pedido, e um nó **Cliente** que faz esse pedido e espera por uma resposta[cite: 36]. [cite_start]Este padrão é ideal para tarefas que necessitam de uma confirmação ou de um resultado direto, funcionando de forma similar a uma chamada de função remota[cite: 37].
+O sistema consiste em um nó **Servidor** que aguarda por um pedido, e um nó **Cliente** que faz esse pedido e espera por uma resposta. 
 
 ---
 
@@ -63,6 +63,6 @@ Para o sistema funcionar, o servidor precisa estar ativo antes que o cliente fa�
 
 ---
 
-### 👨‍💻 Autor
+### 
 
-* **Giovanna Guedes Veloso** - [gihgveloso](https://github.com/gihgveloso)
+* **Giovanna Guedes Veloso** - [gihgveloso](https://
